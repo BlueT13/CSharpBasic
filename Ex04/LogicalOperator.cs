@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Ex04
 {
 	class LogicalOperator
 	{
-		public void PrintLogicalOperator(string[] args)
+		public void PrintLogicalOperator()
 		{
 			Console.WriteLine('a'>'b');
 			Console.WriteLine(3 >= 2);

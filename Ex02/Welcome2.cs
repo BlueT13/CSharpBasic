@@ -1,16 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Ex02
 {
 	class Welcome2
 	{
-		public void PrintWelcome2(string[] args )
+		public void PrintWelcome2()
 		{
-			Console.WriteLine("Welcome to");
+			Console.Write("Welcome to ");
 			Console.WriteLine("Java Programming!");
 		}
 	}

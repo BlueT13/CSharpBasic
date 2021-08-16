@@ -7,39 +7,39 @@ namespace Ex04
 		static void Main(string[] args)
 		{
 			ScannerEx scannerEx = new ScannerEx();
-			scannerEx.PrintScannerEx(args);
+			//scannerEx.PrintScannerEx(); //과제와 출력값이 다름
 			Console.WriteLine("");
 
 			ArithmeticOperator arithmeticOperator = new ArithmeticOperator();
-			arithmeticOperator.PrintArithmeticOperator(args);
+			arithmeticOperator.PrintArithmeticOperator();
 			Console.WriteLine("");
 
 			AssignmentIncDecOperator assignmentIncDecOperator = new AssignmentIncDecOperator();
-			assignmentIncDecOperator.PrintAssignmentIncDecOperator(args);
+			assignmentIncDecOperator.PrintAssignmentIncDecOperator();
 			Console.WriteLine("");
 
 			LogicalOperator logicalOperator = new LogicalOperator();
-			logicalOperator.PrintLogicalOperator(args);
+			logicalOperator.PrintLogicalOperator();
 			Console.WriteLine("");
 
 			Account account = new Account();	//수정필요
-			account.PrintAccount(args);
+			account.PrintAccount();
 			Console.WriteLine("");
 
 			Ex04_1 ex04_1 = new Ex04_1();
-			ex04_1.PrintEx04_1(args);
+			ex04_1.PrintEx04_1();
 			Console.WriteLine("");
 
 			Ex04_2 ex04_2 = new Ex04_2();
-			ex04_2.PrintEx04_2(args);
+			ex04_2.PrintEx04_2();
 			Console.WriteLine("");
 
 			Ex04_3 ex04_3 = new Ex04_3();
-			ex04_3.PrintEx04_3(args);
+			ex04_3.PrintEx04_3();
 			Console.WriteLine("");
 
 			Ex04_4 ex04_4 = new Ex04_4();
-			ex04_4.PrintEx04_4(args);
+			ex04_4.PrintEx04_4();
 			Console.WriteLine("");
 		}
 	}

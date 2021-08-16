@@ -1,27 +1,23 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Ex04
 {
 	class ScannerEx
 	{
-		public void PrintScannerEx(string[] args)
+		public void PrintScannerEx()
 		{
 			Console.WriteLine("Enter name, city, age, weight, marriage.");
 			string name = Console.ReadLine();
-			Console.WriteLine($"Name: {name}", ", ");
+			Console.Write($"Name: {name}", ", ");
 			
 			string city = Console.ReadLine();
-			Console.WriteLine($"City: {city}", ", ");
+			Console.Write($"City: {city}", ", ");
 
 			int age = int.Parse(Console.ReadLine());
-			Console.WriteLine($"Age: {age}", ", ");
+			Console.Write($"Age: {age}", ", ");
 
 			double weight = Convert.ToDouble(Console.ReadLine());
-			Console.WriteLine($"Weight: {weight}", ", ");
+			Console.Write($"Weight: {weight}", ", ");
 
 			bool marriage =Convert.ToBoolean(Console.ReadLine());
 			Console.WriteLine($"Marriage: {marriage}");

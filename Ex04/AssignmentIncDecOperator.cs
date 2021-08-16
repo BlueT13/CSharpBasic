@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Ex04
 {
 	class AssignmentIncDecOperator
 	{
-		public void PrintAssignmentIncDecOperator(string[] args)
+		public void PrintAssignmentIncDecOperator()
 		{
 			int a = 3, b = 3, c = 3;
 

@@ -1,21 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Ex03
 {
 	class Ex03_12
 	{
-		public void PrintEx03_12(string[] args)
+		public void PrintEx03_12()
 		{
 			double a; //가로
 			double b; //세로
 			double c; //방의 넓이
 			double d; //방의 평수
 
-			Console.WriteLine("방의 가로 길이와 세로 길이를 입력하시오: ");
+			Console.Write("방의 가로 길이와 세로 길이를 입력하시오: ");
 			a = double.Parse(Console.ReadLine());
 			b = double.Parse(Console.ReadLine());
 

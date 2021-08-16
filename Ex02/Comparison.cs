@@ -1,22 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Ex02
 {
 	class Comparison
 	{
-		public void PrintComparison(string[]args)
+		public void PrintComparison()
 		{
 			int number1;
 			int number2;
 
-			Console.WriteLine("Enter first integer: ");
+			Console.Write("Enter first integer: ");
 			number1 = int.Parse(Console.ReadLine());
 
-			Console.WriteLine("Enter second integer: ");
+			Console.Write("Enter second integer: ");
 			number2 = int.Parse(Console.ReadLine());
 
 			if (number1 == number2)

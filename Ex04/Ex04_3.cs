@@ -1,19 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Ex04
 {
 	class Ex04_3
 	{
-		public void PrintEx04_3(string[] args)
+		public void PrintEx04_3()
 		{
-			Console.WriteLine("Amount of withdrawal: ");
+			Console.Write("Amount of withdrawal: ");
 			int amount1 = Convert.ToInt32(Console.ReadLine());
 
-			Console.WriteLine("Amount in 50,000-won banknote: ");
+			Console.Write("Amount in 50,000-won banknote: ");
 			int amount2 = Convert.ToInt32(Console.ReadLine());
 
 			int won5 = amount2 / 5;

@@ -1,19 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Ex04
 {
 	class Ex04_4
 	{
-		public void PrintEx04_4(string[] args)
+		public void PrintEx04_4()
 		{
 			int amount;
 			int count;
 			
-			Console.WriteLine("Amount: ");
+			Console.Write("Amount: ");
 			amount = Convert.ToInt32(Console.ReadLine());
 
 			count = amount / 50000;

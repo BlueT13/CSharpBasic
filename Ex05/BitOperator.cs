@@ -1,19 +1,26 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Ex05
 {
 	class BitOperator
 	{
-		public void PrintBitOperator(string[]args)
+		public void PrintBitOperator()	//수정필요
 		{
-			short a = Convert.ToInt16(0x55ff);
-			short b = Convert.ToInt16(0x00ff);
+			short a = 0x55ff;
+			short b = 0x00ff;
 			Console.WriteLine("[Bitwise logical operation]");
-			Console.WriteLine($"{0}", a & b);
+			Console.WriteLine("{0}", (short)(a & b));
+			Console.WriteLine("{0}", (short)(a | b));
+			Console.WriteLine("{0}", (short)(a ^b));
+			Console.WriteLine("{0}", (short)(~a));
+
+			byte c = 20;
+			byte d = 8;
+			Console.WriteLine("[Shift operation");
+			Console.WriteLine("{0}", c <<2);
+			Console.WriteLine("{0}", c>>2);
+			Console.WriteLine("{0}", d>>2);
+			//Console.WriteLine("{0}", d>>>2);
 		}
 	}
 }

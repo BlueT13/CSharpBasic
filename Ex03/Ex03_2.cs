@@ -1,22 +1,22 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Ex03
 {
 	class Ex03_2
 	{
-		public void PrintEx03_2(string[] args)
+		public void PrintEx03_2()
 		{
 			int n = 15;
-			int m = 015; //수정필요
+			int m = Convert.ToInt32("015", 8);
 			int k = 0x15;
 			int b = 0b0101;
 			long g = 24L;
 
-			Console.WriteLine($"{n}\n{m}\n{k}\n{b}\n{g}\n");
+			Console.WriteLine(n);
+			Console.WriteLine(m);
+			Console.WriteLine(k);
+			Console.WriteLine(b);
+			Console.WriteLine(g);
 		}
 	}
 }
