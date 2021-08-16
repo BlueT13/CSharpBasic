@@ -9,7 +9,7 @@ namespace Ex04
 			Console.WriteLine("Enter name, city, age, weight, marriage.");
 			string name = Console.ReadLine();
 			Console.Write($"Name: {name}", ", ");
-			
+
 			string city = Console.ReadLine();
 			Console.Write($"City: {city}", ", ");
 

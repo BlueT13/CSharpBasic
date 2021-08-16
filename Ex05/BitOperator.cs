@@ -15,11 +15,11 @@ namespace Ex05
 			Console.WriteLine("{0}", (short)(~a));
 
 			byte c = 20;
-			byte d = 8;
-			Console.WriteLine("[Shift operation");
+			//byte d = -8;
+			Console.WriteLine("[Shift operation]");
 			Console.WriteLine("{0}", c <<2);
 			Console.WriteLine("{0}", c>>2);
-			Console.WriteLine("{0}", d>>2);
+			//Console.WriteLine("{0}", d>>2);
 			//Console.WriteLine("{0}", d>>>2);
 		}
 	}

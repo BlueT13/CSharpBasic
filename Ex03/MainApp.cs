@@ -50,7 +50,7 @@ namespace Ex03
 			ex03_10.PrintEx03_10();
 			Console.WriteLine();
 
-			Ex03_11 ex03_11 = new Ex03_11(); //값이 다르게 나옴
+			Ex03_11 ex03_11 = new Ex03_11();
 			ex03_11.PrintEx03_11();
 			Console.WriteLine();
 

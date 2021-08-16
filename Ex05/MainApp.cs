@@ -11,7 +11,7 @@ namespace Ex05
 			Console.WriteLine();
 
 			BitOperator bitOperator = new BitOperator();    //수정필요
-			//bitOperator.PrintBitOperator();				//출력값이 다르게나옴
+			bitOperator.PrintBitOperator();				//출력값이 다르게나옴
 			Console.WriteLine();
 
 			MultipleOfThree multiple = new MultipleOfThree();
