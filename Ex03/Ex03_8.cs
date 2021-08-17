@@ -1,30 +1,25 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Ex03
 {
 	class Ex03_8
 	{
-		public void PrintEx03_8(string[] args)
+		public void PrintEx03_8()
 		{
 			int hour;
 			int minute;
 			int second;
-			int total;
 			
-			Console.WriteLine("hour: ");
+			Console.Write("hour: ");
 			hour = int.Parse(Console.ReadLine());
 
-			Console.WriteLine("hour: ");
+			Console.Write("minute: ");
 			minute = int.Parse(Console.ReadLine());
 
-			Console.WriteLine("hour: ");
+			Console.Write("second: ");
 			second = int.Parse(Console.ReadLine());
 
-			total = hour * 60 * 60 + minute * 60 + second;
+			int total = hour * 60 * 60 + minute * 60 + second;
 			Console.WriteLine("Total: {0} sec.",total);
 
 		}
