@@ -6,7 +6,37 @@ namespace Ex06
 	{
 		static void Main(string[] args)
 		{
-			
+			ForSample forSample = new ForSample();
+			//forSample.PrintForSample();
+			Console.WriteLine();
+
+			WhileSample whileSample = new WhileSample();
+			//whileSample.PrintWhileSample();
+			Console.WriteLine();
+
+			DoWhileSample doWhileSample = new DoWhileSample();
+			//doWhileSample.PrintDoWhileSample();
+			Console.WriteLine();
+
+			NestedLoop nestedLoop = new NestedLoop();
+			//nestedLoop.PrintNestedLoop();
+			Console.WriteLine();
+
+			ContinueExample continueExample = new ContinueExample();
+			//continueExample.PrintContinueExample();
+			Console.WriteLine();
+
+			BreakExample breakExample = new BreakExample();
+			//breakExample.PrintBreakExample();
+			Console.WriteLine();
+
+			ArrayAccess arrayAccess = new ArrayAccess();
+			//arrayAccess.PrintArrayAccess();
+			Console.WriteLine();
+
+			Ex06_1 ex06_1 = new Ex06_1();
+			//ex06_1.PrintEx06_1();
+			Console.WriteLine();
 		}
 	}
 }
